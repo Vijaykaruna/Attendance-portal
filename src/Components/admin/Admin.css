@@ -1,0 +1,35 @@
+.ad-box{
+    border: 1px solid gray;
+    border-radius: 20%;
+    margin: 10% 40% 20% 40%;
+    padding: 10% 50%;
+}
+.btn-form-ad button{
+ margin-top: 15%;
+}
+.container-astf{
+    background-color: rgba(0, 0, 0, 0.096);
+}
+.inputs-astf{
+  display: flex;
+  margin:3% 3% 1% 7%;
+}
+.inputs-astf input{
+    width: 200px;
+    margin-top: 3%;
+    height: 25px;
+}
+.output-ans-sr td{
+    text-align:center;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.output-table-sr{
+    border:1px solid black;
+    border-collapse: collapse;
+    width: 95%;
+    margin: 5% 2% 2% 2%;
+}
+.output-ans-sr:nth-child(odd){
+    background-color:rgba(214, 208, 208, 0.616);
+}

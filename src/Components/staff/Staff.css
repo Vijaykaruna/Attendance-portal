@@ -1,0 +1,63 @@
+.container-stf{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.096);
+}
+.left-cont-stf{
+    border: 1px solid gray;
+    padding: 5% 5% 3% 5%;
+}
+.output-head-stf th,.output-ans-stf td,.output-ans-ar td{
+    text-align:center;
+    padding: 10px 90px 10px 90px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.output-table-stf{
+    border:1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+.output-table-ar{
+    border:1px solid black;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 5% 5%  5% 5% ;
+}
+.container-as,.container-aa{
+    background-color: rgba(0, 0, 0, 0.096);
+}
+.inputs-as{
+  display: flex;
+  margin:3% 3% 1% 7%;
+}
+.inputs-as input{
+    width: 200px;
+    margin-top: 3%;
+    height: 25px;
+}
+.output-ans-aa{
+    display:flex;
+    justify-content:center;
+    border:1px solid gray;
+    margin: 0 21.8% 0 21.8%;
+}
+
+.sts-ar{
+    font-weight: bold;
+}
+.sts-aa{
+    margin-top: 1%;
+    padding:2% 6% 4px 6%;
+}
+.r-aa{
+    padding:1% 5% 1% 5%;
+}
+.n-aa{
+    padding:3% 5% 1% 5%;
+    margin: 0px 90px 0px 90px;
+}
+.output-ans-aa:nth-child(even){
+    background-color:rgba(81, 156, 218, 0.733);
+}
+.output-ans-aa:nth-child(odd),.output-ans-stf:nth-child(odd),.output-ans-ar:nth-child(odd){
+    background-color:rgba(214, 208, 208, 0.616);
+}
